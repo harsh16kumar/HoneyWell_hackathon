@@ -23,7 +23,6 @@ This project uses **Machine Learning (Random Forest Classifier)** and **Z-score 
 ## 📂 Project Structure
 |
 ├── honey_well.csv # Input dataset
-
 ├── app.py # Main script
 ├── model.pkl # Trained Random Forest model
 ├── scaler.pkl # Scaler for feature normalization
