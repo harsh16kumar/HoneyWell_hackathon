@@ -21,3 +21,38 @@ This project uses **Machine Learning (Random Forest Classifier)** and **Z-score 
 ---
 
 ## 📂 Project Structure
+|
+├── honey_well.csv # Input dataset
+├── app.py # Main script
+├── model.pkl # Trained Random Forest model
+├── scaler.pkl # Scaler for feature normalization
+├── stats.pkl # Mean and Std for anomaly scoring
+├── final_anomaly_output.csv # Output with anomaly scores & top features
+├── final_anomaly_output.pkl # Pickle version of output
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/honeywell-anomaly-detection.git
+   cd honeywell-anomaly-detection
+2. Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Place your dataset:
+   Ensure honey_well.csv is present in the root directory.
+4. Run the script:
+   ```bash
+   python app.py
+
+📊 Outputs:Classification Report is printed for model performance.
+├──final_anomaly_output.csv includes:
+├──Predicted_Quality
+├──Anomaly_score% (1–100 scale)
+├──top_feature_1 … top_feature_7 (most influential anomaly features)
+
+Author - Harsh Kumar
