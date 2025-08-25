@@ -22,14 +22,14 @@ This project uses **Machine Learning (Random Forest Classifier)** and **Z-score 
 
 ## 📂 Project Structure
 |
-├── honey_well.csv # Input dataset
-├── app.py # Main script
-├── model.pkl # Trained Random Forest model
-├── scaler.pkl # Scaler for feature normalization
-├── stats.pkl # Mean and Std for anomaly scoring
-├── final_anomaly_output.csv # Output with anomaly scores & top features
-├── final_anomaly_output.pkl # Pickle version of output
-└── README.md # Project documentation
+├── honey_well.csv
+├── app.py
+├── model.pkl
+├── scaler.pkl
+├── stats.pkl
+├── final_anomaly_output.csv
+├── final_anomaly_output.pkl
+└── README.md
 
 
 ---
